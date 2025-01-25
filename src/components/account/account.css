@@ -1,0 +1,99 @@
+.total-balance-cont2{
+    width: calc(100vw - 18rem);
+    background-color: white;
+    padding: 0.54rem;
+    border-radius: 0.57rem;
+    margin-top: 0.47rem;
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  .total-balance-cont{
+    width: calc(100vw - 18rem);
+    height: 10rem;
+    background-color: white;
+    padding: 0.54rem;
+    border-radius: 0.57rem;
+    margin-top: 0.47rem;
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .total-balance-header, .balance-card {
+    background-color: var(--color-background-grey);
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.42rem;
+    margin-bottom: 0.57rem;
+  }
+
+  .balance-card {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .total-balance-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .name-title, .label {
+    font-weight: 550;
+  }
+  
+  .amount {
+    font-weight: 600;
+  }
+  .balance-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border: 0.07rem solid #ccc;
+    border-radius: 0.42rem;
+    margin-left: 1rem;
+  }
+  
+  .check-balance {
+    position: relative;
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 8.5rem;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.42rem;
+    padding: 0.35rem 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -4.28rem;
+  }
+  
+  .check-balance:hover .tooltip {
+    visibility: visible;
+  }
+
+  .action-button {
+    background-color: var(--color-text-blue-hover);
+    color: white;
+    border: none;
+    padding: 0.29rem 0.58rem;
+    margin-left: 0.71rem;
+    cursor: pointer;
+    border-radius: 0.28rem;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.action-button:hover {
+    background-color: var(--color-text-blue);
+}

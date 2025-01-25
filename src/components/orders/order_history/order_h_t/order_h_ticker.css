@@ -1,0 +1,21 @@
+.order-history-row td {
+    background-color: rgb(255, 255, 255);
+    max-width: 90vw;
+    height: 3rem;
+}
+
+.order-history-row:hover td {
+    background-color: var(--color-background-hover);
+}
+
+.negative {
+    color: #e74c3c; /* Red for negative values */
+}
+
+.positive {
+    color: #048539; /* Green for positive values */
+}
+
+.order-history-row {
+    transition: background-color 0.3s ease-in-out;
+}
